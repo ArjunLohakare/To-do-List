@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #749adb);
+}
+.login-box {
+    background: white;
+    padding: 2.5em 3em;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+.login-box h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+.login-box input {
+    width: 90%;
+    padding: 0.75em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.login-box button {
+    width: 100%;
+    padding: 0.75em;
+    background: #2575fc;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.login-box button:hover {
+    background: #1a5ddf;
+}
+.task-container {
+    padding: 2em;
+}
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    gap: 1em;
+}
+.task-header form input {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.task-header form button {
+    padding: 0.75em 1.25em;
+    background: #00c853;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task-header form button:hover {
+    background: #00b342;
+}
+.button {
+    padding: 0.6em 1.2em;
+    background: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background: #1976d2;
+}
+.button.danger {
+    background: #f44336;
+}
+.button.danger:hover {
+    background: #d32f2f;
+}
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.task-table th, .task-table td {
+    padding: 1.25em;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.task-table th {
+    background-color: #f0f0f0;
+}
+.pending {
+    background-color: #fff3cd;
+}
+.working {
+    background-color: #d1ecf1;
+}
+.completed {
+    background-color: #d4edda;
+}
+.update {
+    background: #673ab7;
+}
+.update:hover {
+    background: #5e35b1;
+}
